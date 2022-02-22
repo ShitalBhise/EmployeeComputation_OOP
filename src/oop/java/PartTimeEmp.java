@@ -17,7 +17,6 @@ public class PartTimeEmp {
 
 		public static void empSalary(int empCheck) {
 			int empWrkHrs = 0;
-
 			if (empCheck == FULL_TIME) {
 				empWrkHrs = 8;
 			} else if (empCheck == PART_TIME) {
