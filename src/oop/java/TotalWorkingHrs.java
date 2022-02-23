@@ -15,7 +15,7 @@ public class TotalWorkingHrs {
 		 * generating random numbers with in 3 using random functions
 		 */
 		public static int empCheck() {
-			Random random = new Random();// random is object
+			Random random = new Random();
 			int empCheck = random.nextInt(3);
 			return empCheck;
 		}
@@ -62,7 +62,8 @@ public class TotalWorkingHrs {
 
 	public static void main(String[] args) {
 		int totalEmpSalary;
-		System.out.println("Welcome to wage check calculate with total working hours");
+		System.out.println(
+				"Welcome to check Wages till a condition of total working hours or days is reached for a month");
 		totalEmpSalary = Employee.totalEmpSalary();
 		System.out.println("total Employee Salary is = " + totalEmpSalary);
 	}
